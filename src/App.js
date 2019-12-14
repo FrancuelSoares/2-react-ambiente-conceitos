@@ -2,8 +2,10 @@ import React from 'react';
 
 import './App.css';
 
-function App(){
-  return <h1>Olá mundo!</h1>;
+import profile from './assets/imgs/francuel.jpg';
+
+function App() {
+  return <img src={profile} />
 }
 
 export default App;
