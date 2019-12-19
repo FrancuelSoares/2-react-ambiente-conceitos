@@ -19,7 +19,7 @@ class TechList extends Component {
   }
 
   /**
-   * Executado sempre que houver alterações nas propsou estado
+   * Executado sempre que houver alterações nas props ou estado
    * 
    * @param {*} prevProps 
    * @param {*} prevState 
@@ -77,7 +77,7 @@ class TechList extends Component {
           <button type="submit">Enviar</button>
         </form>
       </>
-    )
+    );
   }
 }
 
